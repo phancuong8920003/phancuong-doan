@@ -1,0 +1,21 @@
+.quanlymenu li{
+    float:left;
+    margin: 10px;
+}
+.quanlymenu{
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+.title_admin{
+    font-size: 50px;
+    text-align: center;
+    color: burlywood;
+}
+.wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}

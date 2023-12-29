@@ -1,0 +1,244 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+.wrapper_chitiet{
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.chitiet_sanpham >h3{ 
+    font-size: 18px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hinhanh_sanpham{
+    float: left;
+    width: 40%;
+    margin-top: 30px;
+}
+.chitiet_sanpham >p{
+    font-size: 18px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+    
+
+.chitiet_sanpham{
+    float: left;
+    width: 49%;
+    margin: 0 18px;
+    margin-top: 30px;
+
+}
+.gia{
+    font-family: 'Lato', sans-serif;
+        /* margin-left: 50px; */
+        margin-top: 20px;
+        font-size: 20px;
+        color:#FE5858;
+    
+}
+.mua{
+    margin-top: 10px;
+   
+    border: 1px #666666;
+    display: block;
+    background-color: #ccc;
+    float: left;
+    padding: 18px 12px;
+    font-size: 13px;
+    
+    color: #666666;
+    font-family: 'Lato', sans-serif;
+}
+.mua:hover{
+    font-weight: bold;
+    color:white;
+    background-color: red;
+}
+
+
+.header{
+    background-image: url("../imgs/banner.jpg");
+    background-repeat: no-repeat;
+     border: 1px solid #ff80ff;
+     background-size: 100% 180px;
+    height: 200px;
+    width: 100%;
+    /* background: #ff0080; */
+    
+}
+.menu{
+    border: 1px solid #1aff8c;
+    height: 70px;
+    width: 100%;
+    background-color: blanchedalmond;;
+}
+.danhmucsp ul{
+    background-color: blanchedalmond;
+    padding: 0px;
+    margin: 0px;
+    width: 60%;
+    border: 1px solid #00e6ac;
+    list-style:none ;
+    margin: 0 auto;
+    line-height: 37px;
+}
+.danhmucsp ul li :hover{
+    background: burlywood;
+}
+.danhmucsp ul li a{
+    padding: 9px;
+    text-decoration: none;
+    text-align: center;
+    color: #3333ff;
+}
+.danhmucsp ul li{
+    float: left;
+    margin: 7px;
+    padding: 5px;
+}
+#main{
+    border: 1px solid #00ff80;
+    height: 700px;
+    width: 100%;
+
+}
+.sidebar{
+    background-color: blanchedalmond;
+    border: 1px solid #000066;
+    height: 690px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+    
+}
+.list_sidebar{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    
+    list-style:none ;
+    
+    line-height: 27px;
+}
+.list_sidebar  li :hover{
+    background: burlywood;
+}
+.list_sidebar  li a{
+    padding: 9px;
+    text-decoration: none;
+    text-align: center;
+    color: #3333ff;
+    display: block;
+    text-align: left;
+}
+.list_sidebar  li{
+    
+    margin: 7px;
+    padding: 5px;
+}
+
+.maincontent{
+    border: 1px solid #ff0000;
+    height: 690px;
+    width: 78.9%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+}
+.list_product{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    width: 100%;
+    /* height: 50px; */
+}
+.list_product li {
+    background-color: #F5F5F5;;
+    width: 18%;
+    border: 1px solid #000;
+    margin: 5px;
+    float: left;
+    border-radius: 15px;
+    box-shadow: 2px 3px 5px #E0E0E0;
+    height: 350px;
+}
+.list_product li img{
+    margin-top: 10px;
+    width: 100%;
+    height: 190;
+}
+.list_product .title_product{
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.list_product .price_product{
+    text-align: center;
+    color: red  ;
+    font-size: 16px;
+    font-weight: bold;
+}
+.list_product a{
+    text-decoration: none;
+}
+
+.footer{
+    /* margin-top: 50px; */
+    
+    border: 1px ;
+    height: 240px;
+    width: 100%;
+    background-color: blanchedalmond;;
+
+}
+.footer .tuvan{
+    float: left;
+    display: inline-block;
+  
+    margin-left: 350px;
+}
+.footer .tuvan .tuvan1{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.footer .tuvan .tuvan2{
+margin-top: 10px;
+}
+.footer .tuvan .tuvan3{
+    margin-top: 10px;
+}
+.footer .tuvan .tuvan4{
+    margin-top: 10px;
+}
+.footer .chinhsach{
+    display: inline-block;
+    margin-left: 10px;
+}
+.footer .chinhsach p{
+    margin-top: 10px;    
+    margin-left: 100px;
+   
+}
+.footer .lienhe{
+    margin-top: -200px;
+    margin-left: 80px;
+    display: inline-block;
+    text-align: center;
+}
+.footer .lienhe p{
+    margin-top: 13px;
+}
